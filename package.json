@@ -1,0 +1,21 @@
+{
+    "name": "trpc-client-example",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack serve --mode development"
+    },
+    "dependencies": {
+        "@trpc/client": "^10.45.0",
+        "@trpc/server": "^10.45.0",
+        "axios": "^1.6.5"
+    },
+    "devDependencies": {
+        "ts-loader": "^9.5.1",
+        "typescript": "5.3.3",
+        "webpack": "5.89.0",
+        "webpack-cli": "5.1.4",
+        "webpack-dev-server": "4.15.1"
+    }
+}
